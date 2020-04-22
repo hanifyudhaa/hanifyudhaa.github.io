@@ -1,0 +1,501 @@
+/*
+coklat #c68543
+soklat muda #dfad66
+coklat tua #261609
+coklat muda putih #fedcaf
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Grand Hotel', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fbfed5;
+    background-color: #c68543;
+    line-height: 1.6;
+
+}
+
+header {
+    background-color: #dfad66;
+    max-width: 100%;
+    height: 1000px;
+    border-radius: 0 0 100% 100%;
+    margin-top: -500px;
+}
+
+.banner {
+    margin-top: -500px
+}
+
+.tanggal h2 {
+    font-family: "Montez", Sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 50%;
+    text-align: center;
+}
+
+.the-wedding {
+    font-family: "Crete Round", sans-serif;
+    font-size: 4em;
+}
+
+#demo {
+    font-size: 2em;
+}
+
+.pengantin {
+    margin-top: 50px;
+    border: solid #fbfed5 5px;
+    border-radius: 20px;
+    padding: 30px 0;
+    font-size: 50px;
+}
+
+.mempelai {
+    font-family: "Montez", Sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nama {
+    font-family: "Abril Fatface", sans-serif;
+    margin: 0;
+}
+
+.pengantin .foto {
+    border: solid white 10px;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px
+}
+
+.putra {
+    font-size: 30px;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.pesan {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.kata-kata {
+    margin-top: 50px;
+}
+
+.akad {
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.akad .col {
+    padding: 0;
+}
+
+.akad .akad-bg {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url("../images/cincin.jpg");
+    border-radius: 20px 0 0 20px;
+}
+
+.akad .akad-bg2 {
+    background-color: #dfad66;
+    border-radius: 0 20px 20px 0;
+    padding: 30px 30px;
+}
+
+.akad-title {
+    font-family: "Crete Round", sans-serif;
+    font-size: 2.7em;
+    background-color: #c68543;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.icon-akad {
+    font-size: 20px;
+    background-color: #c68543;
+    color: white;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.resepsi {
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.resepsi .col {
+    padding: 0;
+}
+
+.resepsi .resepsi-bg {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url("../images/resepsi-isi.jpg");
+    border-radius: 0 20px 20px 0;
+}
+
+.resepsi .resepsi-bg2 {
+    background-color: #dfad66;
+    border-radius: 20px 0 0 20px;
+    padding: 30px 30px;
+
+}
+
+.resepsi-title {
+    font-family: "Crete Round", sans-serif;
+    font-size: 2.7em;
+    background-color: #c68543;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.icon-resepsi {
+    font-size: 20px;
+    background-color: #c68543;
+    color: white;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.bg-counter {
+    position: absolute;
+    background-color: #dfad66;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    margin-top: -300px;
+    border-radius: 100% 100% 0 0;
+}
+
+.counter {
+    background-color: #dfad66;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #c68543;
+}
+
+.counter h2 {
+    font-family: "Montez", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.tag-timer {
+    filter: brightness(200%) contrast(200%) saturate(100%) blur(0px) hue-rotate(0deg);
+}
+
+.counter-isi {
+    background-color: #5f3e24;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.counter-label {
+    margin-top: -10px;
+    font-size: 40px;
+}
+
+.google-form {
+    background-color: #5f3e24;
+    border-radius: 10px;
+    color: white;
+    font-size: 50px;
+    border: 0;
+    margin-top: 40px;
+    animation: kedip 1.5s infinite;
+}
+
+@keyframes kedip {
+    0% {
+        box-shadow: 0 0 0 0 white;
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(161, 196, 90, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(161, 196, 90, 0);
+    }
+}
+
+.copyright {
+    margin-top: 50px;
+}
+
+.copyright img {
+    max-width: 20%;
+}
+
+#lokasi {
+    position: fixed;
+    bottom: 15px;
+    float: right;
+    right: 15px;
+    width: 5%;
+    z-index: 99;
+    border-radius: 10px;
+    padding: 0 !important;
+}
+
+#lokasi img {
+    animation: kedip2 1.5s infinite;
+    background-color: #dfad66;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 5px;
+}
+
+#lokasi h2 {
+    font-size: 25px;
+    color: white;
+}
+
+@keyframes kedip2 {
+    0% {
+        box-shadow: 0 0 0 0 white;
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(161, 196, 90, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(161, 196, 90, 0);
+    }
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (max-width: 549px) {
+    header {
+        background-color: #dfad66;
+        max-width: 100%;
+        height: 300px;
+        border-radius: 0 0 100% 100%;
+        margin-top: -150px;
+    }
+
+    .banner {
+        margin-top: -170px
+    }
+
+    .the-wedding {
+        font-family: "Crete Round", sans-serif;
+        font-size: 2em;
+    }
+
+    #demo {
+        font-size: 1em;
+    }
+
+    .tanggal h2 {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .pengantin {
+        margin-top: 50px;
+        border: solid #fbfed5 3px;
+        border-radius: 20px;
+        padding: 20px 20px;
+        font-size: 15px;
+    }
+
+    .pengantin .foto {
+        border: solid white 3px;
+        border-radius: 100%;
+        width: 150px;
+        height: 150px
+    }
+
+    .mempelai {
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .nama {
+        font-family: "Abril Fatface", sans-serif;
+        margin: 0;
+    }
+
+    .putra {
+        font-size: 15px;
+    }
+
+    .pesan {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .kata-kata {
+        margin-top: 10px;
+    }
+
+    .akad {
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+
+    .akad .col {
+        padding: 0;
+    }
+
+    .akad .akad-bg {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background-image: url("../images/cincin.jpg");
+        border-radius: 20px 0 0 20px;
+    }
+
+    .akad .akad-bg2 {
+        background-color: #dfad66;
+        border-radius: 0 20px 20px 0;
+        padding: 5px 5px;
+    }
+
+    .akad h2{
+        font-size: 15px;
+    }
+
+    .icon-akad {
+        background-color: #c68543;
+        color: white;
+        padding: 20px;
+        border-radius: 100%;
+    }
+
+    .resepsi {
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+
+    .resepsi .col {
+        padding: 0;
+    }
+
+    .resepsi .resepsi-bg {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background-image: url("../images/resepsi-isi.jpg");
+        border-radius: 0 20px 20px 0;
+    }
+
+    .resepsi .resepsi-bg2 {
+        background-color: #dfad66;
+        border-radius: 20px 0 0 20px;
+        padding: 5px 5px;
+
+    }
+
+    .resepsi h2 {
+        font-size: 15px;
+    }
+
+    .icon-resepsi {
+        font-size: 20px;
+        background-color: #c68543;
+        color: white;
+        padding: 25px;
+        border-radius: 100%;
+    }
+
+    .counter h2{
+        font-size: 40px;
+    }
+
+    .counter-isi {
+        background-color: #5f3e24;
+        border-radius: 10px;
+        color: white;
+        margin-top: 0;
+        font-size: 30px;
+    }
+
+    .counter-label {
+        margin: 0;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    .google-form {
+        background-color: #5f3e24;
+        border-radius: 10px;
+        color: white;
+        font-size: 30px;
+        border: 0;
+        margin-top: 20px;
+        animation: kedip 1.5s infinite;
+    }
+
+    .copyright {
+        margin-top: 70px;
+    }
+
+    .copyright img {
+        max-width: 30%;
+    }
+
+    .copyright h3{
+        font-size: 20px;
+    }
+
+    #lokasi {
+        position: fixed;
+        bottom: 15px;
+        float: right;
+        right: 15px;
+        width: 15%;
+        z-index: 99;
+        border-radius: 10px;
+        padding: 0 !important;
+    }
+
+    #lokasi img {
+        animation: kedip2 1.5s infinite;
+        background-color: #dfad66;
+        border-radius: 10px;
+        border: 0;
+        margin-bottom: 5px;
+    }
+
+    #lokasi h2 {
+        font-size: 17px;
+        color: white;
+    }
+
+
+}
